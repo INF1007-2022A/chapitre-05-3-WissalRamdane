@@ -4,9 +4,15 @@
 import math
 
 def get_num_letters(text):
-	return 0
+	num_letters=0
+	for char in text:
+		num_letters+=int(chr.isalnum())
+
+	return num_letters
+	print(num_letters)
 
 def get_word_length_histogram(text):
+	
 	return [0]
 
 def format_histogram(histogram):
